@@ -1,0 +1,21 @@
+{
+  "name": "socialbot",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon --env-file=.env server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "description": "",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "mongoose": "^8.10.0",
+    "nodemon": "^3.1.9",
+    "openai": "^4.83.0",
+    "telegraf": "^4.16.3"
+  }
+}
